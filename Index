@@ -1,0 +1,45 @@
+<!doctype html>
+<!-- When creating the first page of a website, Always name it "index"-->
+ <html lang="en">
+    <!--the Lang attribute declares the Default language-->
+    <head>
+        <!--this meta tag defines our character set-->
+        <meta charset="utf-8">
+        <!--this meta tag detects the size of the device-->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!--this meta tag describes the page-->
+        <meta name="description" content="this is the code for week 1">
+        <!--this meta tag determines if the website is able to be found using search engine-->
+        <meta name="robots" content="noindex, nofollow">
+        <!--this is the title of the document-->
+        <title>Week 1 | HTML Building Blocks</title>
+    </head>
+<body> 
+    <h1>I Am The Main Title</h1>
+    <h2>Sub-Heading</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis est accusamus aperiam delectus reprehenderit optio ratione, quia, officiis quas nostrum esse! Amet tempora dolorem quod voluptate excepturi. Pariatur est dicta ad suscipit minus consequatur autem, rem similique, ea, amet nobis. Necessitatibus ad et illo eveniet vero voluptates molestias consequuntur eos!</p>
+    <ol>
+        <li>item 1</li>
+        <li>item 2</li>
+    </ol>
+    <ul>
+        <li>item 3</li>
+        <li>item 4</li>
+    </ul>
+    <blockquote cite="www.something.ca">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores quam nulla, at itaque, amet eaque nisi ea excepturi, consequuntur quas dolore pariatur quia rerum ad beatae recusandae distinctio dignissimos provident ullam. A consequuntur hic quidem eveniet expedita adipisci sequi nemo accusantium, numquam, aspernatur voluptas asperiores. Architecto aperiam distinctio inventore rem pariatur doloremque sunt, qui ducimus id quia ea iure, consequatur quasi eaque quod dolor esse eos est aliquid iusto reprehenderit expedita quidem. Et, autem delectus.</blockquote>
+    <table>
+        <thead>
+            <tr>
+                <th>Heading One</th>
+                <th>Heading Two</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>cell 1</td>
+                <td>cell 2</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+ </html>
