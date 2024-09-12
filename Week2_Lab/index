@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="This is my week 2 lab">
+        <meta name="robots" content="noindex, nofollow">
+        <title>week 2 || lab</title>
+    </head>
+
+<body>
+     <header>
+
+        <div>
+            <a target="_self" href="index.html">
+            <img src="#" alt="LOGO">
+            </a>
+        </div>
+
+        <nav>
+            <a href="#">Navigation Bar</a>
+        </nav>
+
+    </header> 
+
+    <section>
+        <h1><mark>MAIN HEADING</mark></h1>
+    </section>
+
+    <main>
+  
+        <section>
+            <h3>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse provident dolore aliquam quisquam. Distinctio fugit illo eveniet officiis possimus accusantium!</h3>
+        </section>
+
+        <section>
+            <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium id distinctio iste unde fugiat incidunt.</h3>
+        </section>
+
+        <section>
+            <h3>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat velit aut in voluptatibus temporibus corrupti possimus sit qui similique, aperiam veniam neque fuga, dolore exercitationem.</h3>
+        </section>
+
+    </main>
+
+    <aside>
+        <article>
+
+
+            <h4>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam, provident?</h4>
+
+
+        </article>
+
+        <article>
+
+            <h4>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloribus, debitis.</h4>
+
+        </article>
+    </aside>
+
+    <footer>
+        <h6>footer!</h6>
+    </footer>
+
+</body>
+</html>
