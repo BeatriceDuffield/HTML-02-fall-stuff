@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+    <head> <!--Metadata so the code works-->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="This is my Assignment One file">
+        <meta name="robots" content="noindex, nofollow">
+        <title>Assignment 1 || My Favourite Song</title>
+    </head>
+
+<body>
+
+    <header>
+        <h1>Push Ur T3mprr by Femtanyl</h1>
+    </header>
+    <main>
+        <div>  <!--Album Cover photo that links to the bandcamp of the song-->
+            <a target="_blank" href="https://femtanyl.bandcamp.com/track/push-ur-t3mpr"> 
+            <img width="560" height="560" src="./img/PushUrTemper.png" alt="Push Ur T3mprr">
+            </a>
+        </div>        
+        <section><!--Embedded youtube video of the song-->
+            <h2>Youtube Video:</h2>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/LdTIl4FS-58?si=KGaZJ0uFaAgElK0y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </section>
+        <section><!--Section containing the lyrics-->
+            <h2>Lyrics:</h2>
+            <h4>[Verse 1] <br>
+                You got exactly what you want<br>
+                I got exactly what I wanna be<br>
+                I was inspired not to cut<br>
+                When you told me that you wanna see<br>
+                IV tube inside my arm<br>
+                I've always struggled with my honesty<br>
+                But now I'm honest like I'm Abe<br>
+                4 AM I'm on an odyssey<br>
+                I got your beat down to the pulse<br>
+                You're in the red like all the cars I see<br>
+                Break new ground I blam the blunt<br>
+                I get clocked like its a job to me<br>
+                <br>
+                [Chorus]<br>
+                Push your temper<br>
+                Push your temper<br>
+                Push your temper<br>
+                Push your temper<br>
+                <br>
+                [Verse 2]<br>
+                I got a guy and we're best friends, I hopе we get to kill ourselvеs together<br>
+                Grab me by the hips and flip the switch and lose your temper<br>
+                People never change but skin will rot in any weather<br>
+                Come with me lets play pretend I know you'll feel great<br>
+                Its not cause I don't like you, I don't wanna see your face<br>
+                Bitch I do not miss you, I miss how you used to taste<br>
+                Put your cigs out on my tummy smoke three packs a day<br>
+                I'm just here to push your temper, put me in my grave<br>
+                <br>
+                [Chorus]<br>
+                Push your temper<br>
+                Push your temper<br>
+                Push your temper<br>
+                Push your temper</h4>
+        </section>
+    </main>
+    <footer> <!--Who made this code-->
+        <h6>By: <i>Beatrice Duffield</i></h6>
+    </footer>
+
+</body>
+</html>
