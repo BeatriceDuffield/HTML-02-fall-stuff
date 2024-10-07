@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <!-- Required Metadata -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial scale=1">
+        <meta name="description" content="Assignment 2">
+        <meta name="robots" content="noindex, nofollow">
+        <title>Pizza Shop Assignment</title>
+        <!-- This adds the fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Calistoga&family=Suez+One&display=swap" rel="stylesheet">
+        <!-- Add the CSS styling -->
+        <link rel="stylesheet" href="./css/style.css">
+    </head>
+    <body>
+        <!-- This is the header, it will be a 2 column row -->
+        <header>
+            <div>
+                <!-- I made this logo myself in 5 minutes in mspaint, it is scuffed on purpose -->
+                <a href="index.html"><img src="./img/YWAPOTlogo.png" alt="Pizza Shop Logo"></a>
+            </div>
+            <!-- Website Navigation -->
+            <nav>
+                <menu>
+                    <li><a href="#" target="_self">Menu</a></li>
+                    <li><a href="#" target="_self">Gift Cards</a></li>
+                    <li><a href="#" target="_self">Search Nearest Location</a></li>
+                </menu>
+            </nav>
+        </header>
+        <!-- this is the masthead -->
+        <section class="masthead">
+            <h1>You Want A Pizza This?</h1>
+            <img src="./img/peppizza.png" alt="Hero Pizza">
+        </section>
+        <main>
+            <section>
+                <div>
+                    <h2>Order Now!</h2>
+                </div>
+            </section>
+            <section>
+                <div>
+                    <!-- HTML Form for ordering -->
+                    <form action="somePHPfile" method="post">
+
+                        <label>How Many Pizza's? (Max Of Four In One Order)</label>
+                        <br>
+                        <input type="number" name="quantity" min="1" max="4">
+                        <br>
+                        <br>
+                        <!--Radio lets user select only one option, for pizza size in this case -->
+                        <label>Choose Pizza Size:</label>
+                        <br>
+                        <input type="radio" id="small" name="Pizza Size" value="small">
+                            <label for="small">Small</label>
+                        <input type="radio" id="medium" name="Pizza Size" value="medium">
+                            <label for="medium">Medium</label>
+                        <input type="radio" id="large" name="Pizza Size" value="large">
+                            <label for="large">Large</label>
+                            <br>
+                            <br>
+                        <!-- checkboxes allow the user to select multiple -->
+                        <label>Choose Toppings (+$0.75 Each):</label>
+                        <br>
+                        <input type="checkbox" id="pepperoni" name="pepperoni" value="Pepperoni">
+                            <label for="pepperoni">Pepperoni</label>
+                        <input type="checkbox" id="bacon" name="bacon" value="Bacon">
+                            <label for="bacon">Bacon</label>
+                        <input type="checkbox" id="sausage" name="sausage" value="Sausage">
+                            <label for="sausage">Sausage</label>
+                        <input type="checkbox" id="peppers" name="peppers" value="Peppers">
+                            <label for="peppers">Peppers</label>
+                        <br>
+                        <br>
+                        <!-- Order name and contact details -->
+                        <label>Order Name</label>
+                        <br>
+                        <input type="text" name="name" required>
+                        <br>
+                        <label>Contact Details</label>
+                        <br>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <br>
+                        <input type="tel" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="705-123-4567" required>
+                        <br>
+
+                        <label>Order Address</label>
+                        <br>
+                        <input type="text" name="address" placeholder="1234 Main Street" required>
+                        <br>
+                        <br>
+                        <!-- Submit the order, completes the form -->
+                        <input type="submit" value="Order">
+                        <br>                        
+                    </form>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <div>
+                <a href="index.html"><img src="./img/YWAPOTlogo.png" alt="Pizza Shop Logo"></a>
+            </div>
+            <div>
+                <h6>Disclaimer</h6>
+                <p><i>You Want A Pizza This?</i> does not claim responsibility for any bodily, or mental harm that comes from eating our sustenance products.</p>
+            </div>
+        </footer>
+    </body>
+</html>
